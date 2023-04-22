@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+}
+#page{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#page h1{
+
+    font-size: 70px;
+    font-family: "gilroy";
+    padding-left: 20px;
+    font-weight: 700;
+    padding-top: 30px;
+    color:#19440E;
+}
+#page p{
+    font-size: 18px;
+    font-family: "gilroy";
+    font-weight: 400;
+    padding-left: 20px;
+}
+#page h5{
+    font-family: "gilroy";
+    font-size: 22px;
+    color: rgb(11, 15, 13);
+    font-weight: 900;
+    padding-left: 20px;
+    top: 40px;
+    
+}
+#img{
+   display: flex;
+   position: absolute;
+   top: 50%;
+   height: 50%;
+   width: 60%;
+}
+#img img{
+    filter: brightness(10px);
+}
+#round{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    position: relative;
+    background-color:#bacbf3;
+    left: 47%;
+    top: 5%;
+    border-radius: 50px;
+}
+#right{
+    display: flex;
+    position: absolute;
+    height: 55%;
+    width: 43%;
+    right: 0;
+    bottom: 20%;
+}
+#right img{
+    filter: brightness(5px);
+}
+#center{
+    display: flex;
+}
+#center img{
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 55px;
+    left: 53%;
+    top: 50%;
+    transform: rotate(-30deg);
+    
+}
+#center2{
+    display: flex;
+    
+}
+#center2 img{
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width: 55px;
+    left: 57%;
+    top: 21%;
+}
+#box1{
+    height: 70px;
+    width: 170px;
+    background-color: #F0EFFF;
+    display: flex;
+    top: 15%;
+    right: 25%;
+    border-radius: 50px;
+    position: absolute;
+}
+#box1 #gol{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    top: 7px;
+    left: 10px;
+    background-image: url(./rohit.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+#gol img{
+    background-image: url(./rohee.jpg);
+}
+#box1 h1{
+    display: flex;
+    font-family: "gilroy";
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    left: 63px;
+    position: absolute;
+    top: 8px;
+}
+#box1 i{
+    left: 65px;
+    display: flex;
+    position: relative;
+    top:30px;
+    color: gold;
+    
+}
+#box2{
+    height: 70px;
+    width: 170px;
+    background-color:#D2DBF0;
+    display: flex;
+    top: 35%;
+    right: 40%;
+    border-radius: 50px;
+    position: absolute;
+}
+#box2 #gol{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    top: 7px;
+    left: 10px;
+    background-image: url(./rohee.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+#gol img{
+    background-image: url(./rohee.jpg);
+}
+#box2 h1{
+    display: flex;
+    font-family: "gilroy";
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    left: 63px;
+    position: absolute;
+    top: 8px;
+}
+#box2 i{
+    left: 65px;
+    display: flex;
+    position: relative;
+    top:30px;
+    color: gold;
+    
+}
+#box3{
+    height: 70px;
+    width: 170px;
+    background-color: #8F9DD0;
+    display: flex;
+    top: 15%;
+    right: 7%;
+    border-radius: 50px;
+    position: absolute;
+}
+#box3 #gol{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    top: 7px;
+    left: 10px;
+    background-image: url(./rohee.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+#gol img{
+    background-image: url(./rohee.jpg);
+}
+#box3 h1{
+    display: flex;
+    font-family: "gilroy";
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    left: 63px;
+    position: absolute;
+    top: 8px;
+}
+#box3 i{
+    left: 65px;
+    display: flex;
+    position: relative;
+    top:30px;
+    color: gold;
+    
+}
+#page5{
+    height: 100%;
+    width: 100%;
+   /* background-color: #8F9DD0;*/
+    position: absolute; 
+}
+
+#page5 h1{
+    position: relative;
+    left: 60%;
+    top: 10%;
+    font-size: 60px;
+    font-weight: 700;
+    font-family:"gilroy";
+}
+#page5 p{
+    position: relative;
+    left: 60%;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "gilroy";
+    top: 12%;
+}
+#mess {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 15%;
+    gap: 5%;
+    height: 100px;
+    left: 60%;
+    width: 30%;
+    color: white;
+    /*background-color: aquamarine;*/
+    
+
+}
+#mess #one{
+    height: 70px;
+    width:190px;
+    background-color:rgb(7, 7, 7);
+    display: flex;
+    border-radius: 50px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#one i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+#one p{
+    left: 2px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+#mess #three{
+    height: 70px;
+    width:190px;
+    background-color:rgb(10, 9, 9);
+    display: flex;
+    border-radius: 50px;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#three  i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+#three p{
+    left: 2px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+#phone{
+    height: 80%;
+    width: 20%;
+    background-color:#94da83;
+    top: 20px;
+    bottom: 20%;
+    display: flex;
+    position: absolute;
+    border: 7px solid black;
+    border-radius: 50px;
+    left: 20%;
+}
+#phone #logo{
+    height: 110px;
+    width: 110px;
+    background-color: white;
+    border-radius: 70px;
+    left: 80px;
+    display: flex;
+    top: 10px;
+    position: absolute;
+}
+#logo img{
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    top: 25px;
+    left: 22px;
+    display: flex;
+    position: absolute;
+    filter: brightness(10px); 
+}
+#d {
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#d h1{
+    top: 160px;
+    left: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "gilroy";
+}
+#p{
+    color: black;
+    font-size: 27px;
+    font-weight: 900;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#p p{
+    top: 230px;
+    left: 23px;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+#btn{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    top: 330px;
+    display: flex;
+    position: absolute;
+    border-radius: 50px;
+    left: 60px;
+}
+#btn h4{
+    color:#94da83;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    left: 45px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "gilroy";
+}
+#btn1{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    top: 400px;
+    display: flex;
+    position: absolute;
+    border-radius: 50px;
+    left: 60px;
+}
+#btn1 h4{
+    color:#94da83;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "gilroy";
+}
